@@ -4,35 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="container">
+    <nav class="navbar navbar-expand-sm bg-light">
+
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Dropdown link
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="assets/images/CloudyMap.png">Cloudiness</a>
+            <a class="dropdown-item" href="assets/images/HumidityMap.png">Humidity</a>
+            <a class="dropdown-item" href="assets/images/TemperatureMap.png">Max Temperature</a>
+            <a class="dropdown-item" href="assets/images//WindMap.png">Wind Speed</a>
+          </div>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Data</a>
+        </li>
+      </ul>
+    
+    </nav>
     <section>
-        <h1>WeatherPy</h1>
+        <h1>Summary: Latitude vs. X</h1>
         <article>
-        <a target="_blank" href="assets/images/cloudymap.png">
-          <img src="assets/images/cloudymap.png" alt="Cloudy Map">
+        <a target="_blank" href="assets/images/CloudyMap.png">
+          <img src="assets/images/CloudyMap.png" alt="Cloudy Map">
         </a>
         <p><em>Cloudy Map</em></p>
         </article>
         <hr>
         <article>
-        <a target="_blank" href="assets/images/humiditymap.png">
-        <img src="assets/images/humiditymap.png" alt="Humidity Map">
+        <a target="_blank" href="assets/images/HumidityMap.png">
+        <img src="assets/images/HumidityMap.png" alt="Humidity Map">
         </a>
         <p><em>Humidity Map</em></p>
         </article>
         <hr>
         <article>
-          <a href="assets/images/temperaturemap.png">
-          <img target="_blank" src="assets/images/temperaturemap.png" alt="Tempurature Map">
+          <a href="assets/images/TemperatureMap.png">
+          <img target="_blank" src="assets/images/TemperatureMap.png" alt="Tempurature Map">
           </a>
           <p><em>Temperature Map</em></p>
         </article>
         <hr>
         <!-- an example using figure/ficaption -->
         <figure>
-          <a target="_blank" href="assets/images/windmap.png">
-          <img src="assets/images/windmap.png" alt="Wind Map">
+          <a target="_blank" href="assets/images/WindMap.png">
+          <img src="assets/images/WindMap.png" alt="Wind Map">
           </a>
           <figcaption><em>Wind Map</em></figcaption>
         </figure>
