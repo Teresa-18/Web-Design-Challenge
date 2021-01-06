@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Web Visualization Dashboard</title>
+  <title>Web Visualization Dashboard</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/CSS/styles.css" media = "screen"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/CSS/styles.css" media="screen">
 
 </head>
 
 <body>
   <nav class="navbar navbar-default">
     <div class="container-fluid navbar-custom">
-      <div class = "row">
+      <div class="row">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             <span class="navbar-toggler-icon"></span>
             <span class="navbar-toggler-icon"></span>
@@ -26,15 +29,16 @@
             <a class="navbar brand" href="#" id="logo">Latitude</a>
           </div>
         </div>>
-      
+
 
         <!-- Links -->
-      
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown</a>
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Dropdown</a>
               <ul class="dropdown-menu">
                 <li><a href="Visualizations/CloudyMap.html">Cloudiness</a></li>
                 <li><a href="Visualizations/TemperatureMap.html">Max Temperature</a></li>
@@ -46,30 +50,41 @@
             <li><a href="Data.html">Data</a></li>
           </ul>
         </div>
-       </div> 
       </div>
-    </nav>
-    <div class="container">
-      <section class="row">
-        <div class="col-md-8">
-          <article class="content">
-            <h1 class="content-header">Summary: Latitude vs. X</h1>
-            <hr class="content-hr"/> 
-            <img src="assets/images/CloudyMap.png" alt="Cloudy Map"/>
-            <p>This homework's purpose was to analyze weather at different Latitudes across the world to see if there was any correlation between the weather and how close to the equator a city was in. The data was gathered using OpenWeatherAPI and then plots were completed using Matplotlib.</p>
-          </article>
-        </div>
-        <div class="col-md-4">
-          <section id="visualization-image-nav">
-            <div class="visualization-image-content">
-              <h2 class = "visualization-image-header">Visualizations</h2> 
-              <hr />
-              <div id="images">
-                <a href="Visualizations/CloudyMap.html"><img src="assets/Images/Citiesfig3.png" alt="Latitude vs. Cloudiness"></a>
-                <a href="Visualizations/HumidityMap.html"><img src="assets/Images/Citiesfig2.png" alt="Latitude vs. Humidity"></a>
-                <a href="Visualizations/TemperatureMap.html"><img src="assets/Images/Citiesfig1.png" alt="Latitude vs. Temperature"></a>
-                <a href="Visualizations/WindMap.html"><img src="assets/Images/Citiesfig4.png" alt="Latitude vs. Wind Speed"></a>
-           
-    
+    </div>
+  </nav>
+  <div class="container">
+    <section class="row">
+      <div class="col-md-8">
+        <article class="content">
+          <h1 class="content-header">Summary: Latitude vs. X</h1>
+          <hr class="content-hr" />
+          <img src="assets/images/CloudyMap.png" alt="Cloudy Map" />
+          <p>This homework's purpose was to analyze weather at different Latitudes across the world to see if there was
+            any correlation between the weather and how close to the equator a city was in. The data was gathered using
+            OpenWeatherAPI and then plots were completed using Matplotlib.</p>
+        </article>
+      </div>
+      <div class="col-md-4">
+        <section id="visualization-image-nav">
+          <div class="visualization-image-content">
+            <h2 class="visualization-image-header">Visualizations</h2>
+            <hr />
+            <div id="images">
+              <a href="Visualizations/CloudyMap.html"><img src="assets/Images/Citiesfig3.png"
+                  alt="Latitude vs. Cloudiness"></a>
+              <a href="Visualizations/HumidityMap.html"><img src="assets/Images/Citiesfig2.png"
+                  alt="Latitude vs. Humidity"></a>
+              <a href="Visualizations/TemperatureMap.html"><img src="assets/Images/Citiesfig1.png"
+                  alt="Latitude vs. Temperature"></a>
+              <a href="Visualizations/WindMap.html"><img src="assets/Images/Citiesfig4.png"
+                  alt="Latitude vs. Wind Speed"></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </div>
 </body>
+
 </html>
