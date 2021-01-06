@@ -31,7 +31,7 @@
         <!-- Links -->
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto"
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Dropdown</a>
@@ -49,44 +49,27 @@
        </div> 
       </div>
     </nav>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Resources/cities.csv">Data</a>
-        </li>
-      </ul>
-  </nav>
-  </div>
-    <section>
-        <h2>Summary: Latitude vs. X</h2>
-        <article>
-        <a target="_blank" href="assets/images/CloudyMap.png">
-          <img src="assets/images/CloudyMap.png" alt="Cloudy Map">
-        </a>
-        <p><em>Cloudy Map</em></p>
-        </article>
-        <hr>
-        <article>
-        <a target="_blank" href="assets/images/HumidityMap.png">
-        <img src="assets/images/HumidityMap.png" alt="Humidity Map">
-        </a>
-        <p><em>Humidity Map</em></p>
-        </article>
-        <hr>
-        <article>
-          <a href="assets/images/TemperatureMap.png">
-          <img target="_blank" src="assets/images/TemperatureMap.png" alt="Tempurature Map">
-          </a>
-          <p><em>Temperature Map</em></p>
-        </article>
-        <hr>
-        <!-- an example using figure/ficaption -->
-        <figure>
-          <a target="_blank" href="assets/images/WindMap.png">
-          <img src="assets/images/WindMap.png" alt="Wind Map">
-          </a>
-          <figcaption><em>Wind Map</em></figcaption>
-        </figure>
-      </section>
+    <div class="container">
+      <section class="row">
+        <div class="col-md-8">
+          <article class="content">
+            <h1 class="content-header">Summary: Latitude vs. X</h1>
+            <hr class="content-hr"/> 
+            <img src="assets/images/CloudyMap.png" alt="Cloudy Map"/>
+            <p>This homework's purpose was to analyze weather at different Latitudes across the world to see if there was any correlation between the weather and how close to the equator a city was in. The data was gathered using OpenWeatherAPI and then plots were completed using Matplotlib.</p>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <section id="visualization-image-nav">
+            <div class="visualization-image-content">
+              <h2 class = "visualization-image-header">Visualizations</h2> 
+              <hr />
+              <div id="images">
+                <a href="Visualizations/CloudyMap.html"><img src="assets/Images/Citiesfig3.png" alt="Latitude vs. Cloudiness"></a>
+                <a href="Visualizations/HumidityMap.html"><img src="assets/Images/Citiesfig2.png" alt="Latitude vs. Humidity"></a>
+                <a href="Visualizations/TemperatureMap.html"><img src="assets/Images/Citiesfig1.png" alt="Latitude vs. Temperature"></a>
+                <a href="Visualizations/WindMap.html"><img src="assets/Images/Citiesfig4.png" alt="Latitude vs. Wind Speed"></a>
+           
     
 </body>
 </html>
