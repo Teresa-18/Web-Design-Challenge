@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Web Visualization Dashboard</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" media="screen">
+    <link rel="stylesheet" href="assets/CSS/styles.css" media="screen">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid navbar-custom">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggler" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="col-xs-9 col-sm-6 col-md-12">
+                        <a class="navbar brand" href="../index.html" id="logo">Latitude</a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="CloudyMap.html">Cloudiness</a></li>
+                                <li><a href="TemperatureMap.html">Max Temperature</a></li>
+                                <li><a href="HumidityMap.html">Humidity</a></li>
+                                <li><a href="WindMap.html">Wind Speed</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../Comparison.html">Comparison</a></li>
+                        <li><a href="../Data.html">Data</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <section class="row">
+            <div class="col-md-8">
+                <article class="content">
+                    <h1 class="content-header">Humidity</h1>
+                    <hr class="content-hr" />
+                    <img src="../Assets/Images/Citiesfig3.png" alt="Humidity Plot" class="img" />
+                    <p> There was a correlation between Latitude and Humidity.</p>
+                </article>
+            </div>
+            <div class="col-md-4">
+                <section id="visualization-image-nav">
+                    <div class="visualization-image-content">
+                        <h2 class="visualization-image-header">Visualizations</h2>
+                        <hr />
+                        <div id="images">
+                            <a href="CloudyMap.html"><img src="../Assets/Images/Citiesfig3.png"
+                                    alt="Latitude vs. Cloudiness" class="img-nav"></a>
+                            <a href="HumidityMap.html"><img src="assets/Images/Citiesfig2.png"
+                                    alt="Latitude vs. Humidity" class="img-nav"></a>
+                            <a href="TemperatureMap.html"><img src="assets/Images/Citiesfig1.png"
+                                    alt="Latitude vs. Temperature" class="img-nav"></a>
+                            <a href="WindMap.html"><img src="assets/Images/Citiesfig4.png" alt="Latitude vs. Wind Speed"
+                                    class="img-nav"></a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+</body>
+
+</html>
