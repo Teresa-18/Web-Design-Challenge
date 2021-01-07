@@ -3,15 +3,36 @@ body {
     background: #f1f1f1;
   }
   
+  h1 {
+
+  }
+  
+  h3 {
+    font-size: 30px;
+  }
+  
   /* Giving our navbar some padding and a background color */
   .navbar {
     padding: 20px;
     margin-right: 10px;
     margin-left: 10px;
-    nav-right: auto;
     color: azure;
-    background-color: rgba(18, 165, 175, 0.582);
+    background-color: rgba(37, 197, 176, 0.747);
     border-radius: 3px;
+  }
+.nav-item {
+    color: #000; 
+    }
+  
+  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+  .nav-header {
+
+  }
+  
+  /* Getting rid of the default link styles here */
+  .nav-item {
+    color: #000;
+    text-decoration: none;
   }
   
   /* Styling the header, giving it a height, a background color, and some top padding */
@@ -21,43 +42,26 @@ body {
     background: #cdcdcd;
   }
   
-  /* Styling the navbar-header, giving it a height, a background color, and some top padding */
-  .navbar-header {
+  /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+  h1 {
 
-  }
-
-  .content {
-    margin-top: auto;
-    background-color: azure;
-  }
-
-  .content-header {
-    font-size: x-large;
-    font-weight: bold;
-    color: rgba(18, 165, 175, 0.582);
   }
   
-.visualization-image-header{
-
-}
-
-  
-  /* Adding media queries  */
-  @media only screen and (max-width: 750px) {
-    .navbar-header{
-      background-color: rgba(18, 165, 175, 0.582);
-    }
-    #logo {
-      width: 100%;
-      height: 50px;
-      padding: 10px;
-      font-size: small;
-      color: ;
+  /* Giving the .post element margin on 3 sides */
+  .post {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
   }
-  @media only screen and (max-width: 750px) {
-    body {
+  
+  #nav-select {
+    visibility: hidden;
+  }
+  
+  /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+  @media (max-width: 480px) {
+    .navbar li {
       padding: 10px;
-      background-color: azure;
     }
   
     .post {
@@ -71,11 +75,5 @@ body {
   
     #nav-select {
       visibility: visible;
-    }
-  }
-
-  @media only screen and (max-width: 750px) {
-    .content {
-      padding: 10px;
     }
   }
