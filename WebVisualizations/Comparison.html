@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Web Visualization Dashboard</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/CSS/styles.css" media="screen">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm">
+        <a class="navbar brand" href="index.html" id="logo">Latitude</a>
+
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="Comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Data.html">Data</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href=# id="navbardrop" data-toggle="dropdown">
+                    Plots</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="Visualizations/CloudyMap.html">Cloudiness</a>
+                    <a class="dropdown-item" href="Visualizations/TemperatureMap.html">Max Temperature</a>
+                    <a class="dropdown-item" href="Visualizations/HumidityMap.html">Humidity</a>
+                    <a class="dropdown-item" href="Visualizations/WindMap.html">Wind Speed</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section class="row">
+            <article class="content">
+                <div class="col-md-3">
+                    <h1 class="content-header">Comparison: Latitude vs. X</h1>
+                    <hr class="content-hr" />
+                    <p>Click on any plot to get an in depth analysis</p>
+                    <a href="Visualizations/TemperatureMap.html " img class="content-img" src="assets/Images/Citiesfig1.png"></a>
+                    <hr class="content-hr" />
+                    <p>vs. Humidity</p>
+                    <img class="content-img" src="assets/Images/Citiesfig2.png" />
+                    <hr class="content-hr" />
+                    <p>vs. Cloudiness</p>
+                    <img class="content-img" src="assets/Images/Citiesfig3.png" />
+                    <hr class="content-hr" />
+                    <p>vs. Wind Speed</p>
+                    <img class="content-img" src="assets/Images/Citiesfig4.png" />
+                </div>
+            </article>
+        </section>
+    </div>
