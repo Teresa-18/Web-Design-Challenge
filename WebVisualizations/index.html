@@ -11,22 +11,26 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/CSS/styles.css" media="screen">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-sm">
-    <a class="navbar brand" href="index.html" id="logo">Latitude</a>
+    <a class="navbar-brand" href="index.html" style="background-color:darkcyan; color: cornsilk;" id="logo" >Latitude</a>
 
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="Comparison.html">Comparison</a>
+          <a class="nav-link" style="color: black;" href="Comparison.html">Comparison</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Data.html">Data</a>
+          <a class="nav-link" style="color: black;" href="Data.html">Data</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href=# id="navbardrop" data-toggle="dropdown">
-            Plots</a>
+          <a class="nav-link dropdown-toggle" style="color: black;" href=# id="navbardrop" data-toggle="dropdown">
+            Plots
+          </a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="Visualizations/CloudyMap.html">Cloudiness</a>
             <a class="dropdown-item" href="Visualizations/TemperatureMap.html">Max Temperature</a>
@@ -36,6 +40,7 @@
         </li>
       </ul>
   </nav>
+  <br>
   <div class="container">
     <section class="row">
       <div class="col-md-8">
@@ -43,9 +48,9 @@
           <h1 class="content-header">Summary: Latitude vs. X</h1>
           <hr class="content-hr" />
           <img class="content-img" src="assets/Images/Citiesfig1.png" />
-          <p>This homework's purpose was to analyze weather at different Latitudes across the world to see if there was
+          <p><span>homework's purpose was to analyze weather at different Latitudes across the world to see if there was
             any correlation between the weather and how close to the equator a city was in. The data was gathered using
-            OpenWeatherAPI and then plots were completed using Matplotlib.</p>
+            OpenWeatherAPI and then plots were completed using Matplotlib.</span> </p>
         </article>
       </div>
       <div class="col-md-4">

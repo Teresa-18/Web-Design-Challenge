@@ -12,14 +12,15 @@ body {
   }
   
   /* Giving our navbar some padding and a background color */
-  .navbar {
+  .navbar-nav {
+    position: absolute;
+    right: 0px;
     padding: 20px;
     margin-right: 10px;
     margin-left: 10px;
-    color: azure;
-    background-color: rgba(37, 197, 176, 0.747);
-    border-radius: 3px;
-  }
+    color: black;
+
+
 .nav-item {
     color: #000; 
     }
@@ -36,17 +37,29 @@ body {
   }
   
   /* Styling the header, giving it a height, a background color, and some top padding */
-  .header {
-    height: 200px;
-    padding-top: 20px;
-    background: #cdcdcd;
-  }
+ 
   
   /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
-  h1 {
-
+  .content{
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    padding: 10px;
   }
-  
+  .content-header{
+    position: absolute;
+    left: 0px;
+    padding: 10px;
+    padding-bottom: 10px;
+  }
+  .content-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 10px;
+    padding-top: 20px;
+  }
   /* Giving the .post element margin on 3 sides */
   .post {
     margin-top: 50px;
