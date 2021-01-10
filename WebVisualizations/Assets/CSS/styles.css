@@ -37,33 +37,7 @@ body {
       color: #000;
       
       }
-  .sidebar {
-        margin: 0;
-        padding: 0;
-        width: 200px;
-        background-color: #f1f1f1;
-        position: fixed;
-        top: 20px;
-        right: 0px;
-
-      }
-      
-    .sidebar a {
-        display: block;
-        color: black;
-        padding: 16px;
-        text-decoration: none;
-      }
-       
-    .sidebar a.active {
-        background-color: #4CAF50;
-        color: white;
-      }
-      
-    .sidebar a:hover:not(.active) {
-        background-color: #555;
-        color: white;
-      }
+  
   .container{
     background-color: white;
     color: darkmagenta;
@@ -92,13 +66,7 @@ body {
     padding: 10px;
     padding-top: 20px;
     background-color: white;
-  
-  
-  
-  
-  /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
-  
-  }
+
   /* Giving the .post element margin on 3 sides */
   .post {
     margin-top: 50px;
