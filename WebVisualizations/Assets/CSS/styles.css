@@ -1,8 +1,69 @@
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
+  margin: 0;
   background-color: lightgrey;
+  font-family: "Lato", sans-serif;
   }
-  
+  .nav{
+    background-color: white;
+    right: 0px;
+   }
+
+   .navbar {
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    background-color: white;
+    }
+
+    .navbar-brand{
+      left: 0px;
+      text-align: left;
+    }
+
+    .nav-item {
+      background-color: white;
+        }
+      
+      
+    .nav-header {
+      background-color: white;
+      padding: 50px;
+      }
+    
+    .nav-item {
+      background-color: white;
+      color: #000;
+      
+      }
+  .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
+        position: fixed;
+        top: 20px;
+        right: 0px;
+
+      }
+      
+    .sidebar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+      }
+       
+    .sidebar a.active {
+        background-color: #4CAF50;
+        color: white;
+      }
+      
+    .sidebar a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+      }
   .container{
     background-color: white;
     color: darkmagenta;
@@ -13,9 +74,19 @@ body {
     background-color: white;
   }
   .content-header{
+    margin-top: 5%;
     padding: 10px;
     padding-bottom: 10px;
     background-color: white;
+    border-bottom: lightsteelblue;
+  }
+  .content-hr{
+    margin-top: 5%;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-bottom: lightsteelblue;
   }
   .content-img{
     padding: 10px;
@@ -23,35 +94,7 @@ body {
     background-color: white;
   
   
-  .nav{
-    background-color: white;
-    right: 0px;
-   }
-
-   .navbar {
-    
-    padding: 50px;
-    margin-right: 10px;
-    margin-left: 10px;
-    color: black;
-    background-color: white;
-    }
-    .nav-item {
-      background-color: white;
-        }
-      
-      /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
-    .nav-header {
-      background-color: white;
-      padding: 50px;
-      }
-      
-      /* Getting rid of the default link styles here */
-    .nav-item {
-      background-color: white;
-      color: #000;
-      
-      }
+  
   
   /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
   
