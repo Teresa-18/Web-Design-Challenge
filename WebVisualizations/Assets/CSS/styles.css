@@ -1,64 +1,59 @@
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
-    background: #f1f1f1;
+  background-color: lightgrey;
   }
   
-  h1 {
-
+  .container{
+    background-color: white;
   }
   
-  h3 {
-    font-size: 30px;
+  .content{
+    padding: 10px;
+    background-color: white;
   }
+  .content-header{
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+  }
+  .content-img{
+    padding: 10px;
+    padding-top: 20px;
+    background-color: white;
   
-  /* Giving our navbar some padding and a background color */
-  .navbar-nav {
-    position: absolute;
+  
+  .nav{
+    background-color: white;
     right: 0px;
-    padding: 20px;
+   }
+
+   .navbar {
+    
+    padding: 50px;
     margin-right: 10px;
     margin-left: 10px;
     color: black;
-
-
-.nav-item {
-    color: #000; 
+    background-color: white;
     }
-  
-  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
-  .nav-header {
-
-  }
-  
-  /* Getting rid of the default link styles here */
-  .nav-item {
-    color: #000;
-    text-decoration: none;
-  }
-  
-  /* Styling the header, giving it a height, a background color, and some top padding */
- 
+    .nav-item {
+      background-color: white;
+        }
+      
+      /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+    .nav-header {
+      background-color: white;
+      padding: 50px;
+      }
+      
+      /* Getting rid of the default link styles here */
+    .nav-item {
+      background-color: white;
+      color: #000;
+      
+      }
   
   /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
-  .content{
-    position: absolute;
-    left: 0px;
-    width: 300px;
-    padding: 10px;
-  }
-  .content-header{
-    position: absolute;
-    left: 0px;
-    padding: 10px;
-    padding-bottom: 10px;
-  }
-  .content-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    padding: 10px;
-    padding-top: 20px;
+  
   }
   /* Giving the .post element margin on 3 sides */
   .post {
